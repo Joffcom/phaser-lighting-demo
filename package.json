@@ -1,0 +1,27 @@
+{
+  "name": "phaser-lighting-demo",
+  "description": "A Phaser 4 + TypeScript port of joffcom/lighting-demo: procedural BSP dungeons with 2D shadow-casting lighting.",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joffcom/phaser-lighting-demo.git"
+  },
+  "author": "joffcom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joffcom/phaser-lighting-demo/issues"
+  },
+  "homepage": "https://github.com/Joffcom/phaser-lighting-demo#readme",
+  "scripts": {
+    "dev": "vite --config vite/config.dev.mjs",
+    "build": "vite build --config vite/config.prod.mjs"
+  },
+  "devDependencies": {
+    "typescript": "~5.7.2",
+    "vite": "^6.3.1"
+  },
+  "dependencies": {
+    "phaser": "4.0.0",
+    "terser": "^5.39.0"
+  }
+}
